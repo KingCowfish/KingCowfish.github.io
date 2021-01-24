@@ -1,40 +1,47 @@
 Style Guide:
 
-Colors: ghostwhite, darkorange, darkcyan, black.
+Colors: 
+	Primary: #008b8b
+	Secondary: #000000
+	Accent 1: #f8f8ff
+	Accent 2: #ff8c00
 
 Navbar (Home): 
-	Regular: darkorange, black background
-	On Hover: darkorange, ghostwhite background
+	Regular: #ff8c00, #000000 background
+	On Hover: #ff8c00, #f8f8ff background
 	
 Navbar: 
-	Regular: ghostwhite, black background
-	On Hover: darkcyan, ghostwhite background
+	Regular: #f8f8ff, #000000 background
+	On Hover: #008b8b, #f8f8ff background
 
 Regular Body: 
 	h1: 
 		Font-Family: Trebuchet MS
 		Font-Size: 3em
-		Color: Black
+		Color: #000000
 	p:
 		Font-Family: Perpetua
 		Font-Size: 17px
-		Color: black
+		Color: #000000
 	Text-Links:
 		Font-Family: Perpetua
 		Font-Size: 17px
-		Color: ghostwhite
+		Color: #f8f8ff
+	Text Column:
+		Color: #008b8b
+		
 
 Video Text:
 	h1:
 		Font-Family: Trebuchet MS
 		Font-Style: oblique
 		Font-Size: 3em
-		Color: darkcyan
+		Color: #008b8b
 	p:
 		Font-Family: Perpetua
 		Font-Style: bold
 		Font-Size: 17px
-		Color: ghostwhite
+		Color: #f8f8ff
 
 
 

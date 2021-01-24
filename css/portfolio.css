@@ -42,8 +42,8 @@ center {
     padding-right: 20px;
 }
 
-a{
-    color: ghostwhite;
+a {
+    color: #f8f8ff;
 }
 
 q {
@@ -74,8 +74,8 @@ img {
 }
 
 input[type=submit] {
-    background-color: black;
-    color: ghostwhite;
+    background-color: #000000;
+    color: #f8f8ff;
     font-weight: bold;
     padding: 12px 20px;
     width: 80px;
@@ -91,8 +91,8 @@ input[type=submit] {
 }
 
 button[type="button"] {
-    background-color: darkcyan;
-    color: black;
+    background-color: #008b8b;
+    color: #000000;
     font-weight: bold;
     padding: 12px 20px;
     width: 80px;
@@ -109,14 +109,14 @@ button[type="button"] {
 }
 
 input[type=submit]:hover {
-    background-color: darkcyan;
-    color: black;
+    background-color: #008b8b;
+    color: #000000;
     font-weight: bold;
 }
 
 button[type="button"]:hover {
-    background-color: black;
-    color: ghostwhite;
+    background-color: #000000;
+    color: #f8f8ff;
     font-weight: bold;
 }*/
 
@@ -138,7 +138,7 @@ p:hover {
 }
 
 h1:hover {
-    color: black;
+    color: #000000;
 }
 
 img:hover {
@@ -155,7 +155,7 @@ footer {
 .Navbar {
     overflow: hidden; /* This ensures that any content that overflows beyond the boundary of 
     our nav bar is not displayed */
-    background-color: black;
+    background-color: #000000;
     position: fixed; /* keeps the navbar at the top of the screen as we scroll */
     top: 0; /* makes the navbar span the entire width of the page */
     width: 100%; /*!!!!!!!!!!!!!! makes navbar span entire width of page*/
@@ -168,7 +168,7 @@ footer {
 .Navbar a {
     float: left; /* text floats on the left of the navbar */
     display: block;
-    color: ghostwhite;
+    color: #f8f8ff;
     padding: 14px 16px;
     text-decoration: none; /* gets rid of underlines */
     font-family: Avant Garde, Helvetica;
@@ -180,19 +180,19 @@ footer {
 
 /* Navbar hover effect */
 .Navbar a:hover {
-    background-color: ghostwhite;
-    color: darkcyan;
+    background-color: #f8f8ff;
+    color: 	#008b8b;
     font-weight: bold;
 }
 
 /* Navbar Home button */
 .Navbar a.active {
-    color: darkorange;
-    background-color: black;
+    color: #ff8c00;
+    background-color: #000000;
 }
 
 .Navbar a.active:hover {
-    background-color: ghostwhite;
+    background-color: #f8f8ff;
 }
 
 @keyframes moveNav {
@@ -213,7 +213,7 @@ footer {
 /* text over the video */
 .video_text {
     background: rgba(0, 0, 0, 0.5); /* proviedes semi-transparent background */
-    color: ghostwhite;
+    color: #f8f8ff;
     width: 100%; /* !!!!!!!!!!!!!!! */
     padding: 25px;
     margin-top: 14%;
@@ -231,7 +231,7 @@ footer {
     padding: 10px;
     padding-top: 3%;
     height: 400px;
-    background-color: darkcyan; 
+    background-color: #008b8b;
     background-image: linear-gradient(#00cccc, #008080);
 }
 
@@ -305,16 +305,16 @@ footer {
   }
   
   /* The dots/bullets/indicators */
-  .dot {
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    background-color: darkcyan;
+    background-color: #008b8b;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
     margin: 15px 5px 5px 0px;
-  }
+}
   
   .active {
     background-color: cyan;
@@ -345,7 +345,7 @@ footer {
 
 /* Dealing with the contact form */
 .open-button {
-    background-color:darkorange;
+    background-color: #ff8c00;
     font-weight: bold;
     color: white;
     font-size: 1em;
@@ -359,22 +359,22 @@ footer {
     width: 200px;
     -webkit-animation: movePopup 4.5s;
     animation: movePopup 4.5s;
-  }
+}
 
   @keyframes movePopup {
     from {bottom: -40vw;}
     to {bottom: 1.75vw;}
   }
 
-  .form-popup {
+.form-popup {
     display: none;
     position: fixed;
     bottom: 0;
     right: 15px;
-    border: 3px solid darkcyan;
+    border: 3px solid #008b8b;
     z-index: 9;
     border-radius: 5px;
-  }
+}
   
   .form-container {
     max-width: 500px;
