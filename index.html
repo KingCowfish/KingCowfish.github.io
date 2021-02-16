@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Alexander Broder's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+    <link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
     <script src="jss/portfolio.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 </head>
@@ -23,7 +24,7 @@
 
     <!-- Nav Bar -->
     <div class="Navbar">
-        <a class="active" href="#home"><strong>Home</strong></a>
+        <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#github">GitHub</a>
         <!--<a href="#contact" onclick="openForm()">Contact</a>-->
@@ -44,10 +45,9 @@
 
     <!-- Video text -->
     <div class="video_text">
-        <h1 style="color: #00cccc; font-style:oblique;">Alexander Broder's Portfolio</h1>
+        <h1 style="color: #00cccc; font-style: oblique; font-family: 'Merienda One';">Alexander Broder's Portfolio</h1>
         <p>
             <strong>
-                <center>
                     <q>
                         We are all in the gutter,<br>
                         but some of us are looking at the stars.
@@ -56,9 +56,16 @@
                     <br>
                     Hello!  My name is Alexander Broder.  Welcome to my portfolio website.<br>
                     Let me know what you think!<br>
-                </center>
             </strong>
         </p>
+    </div>
+
+    <!--Used for spacing  -->
+    <div id="about">
+        <br />
+        <br />
+        <br />
+        <br />
     </div>
 
     <!-- About section -->
@@ -110,10 +117,10 @@
         </div>
 
         <!-- Writeup -->
-        <div class="column_1" id="about">
+        <div class="column_1">
             <!-- Right Column -->
-            <h1>About</h1>
-            <p>
+            <h1 class="header-text">About</h1>
+            <p class="column-text">
                 I am a recent coding convert who loves to play with my Welsh corgi Karma and look up at the stars!<br><br>
                 Currently, I am studying software development at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy,</a>
                 where I am becoming proficient in HTML, CSS, and Javascript, SQL, the C# coding language, and the .NET Framework.<br><br>
@@ -122,7 +129,7 @@
                 enjoyed creative problem solving (even to the point where I made it through
                 an entire Python textbook because I enjoyed it so much!) so software development
                 feels like the perfect fit for me. I am truly excited to learn and grow within
-                this field.  I'd love to talk so feel free to <a href="#contact">contact</a> me below!
+                this field.  I'd love to talk so feel free to <!--<a href="#contact">-->contact<!--</a>--> me on Link!
             </p>
         </div>
     </div>
@@ -131,8 +138,8 @@
     <div class="row">
         <div class="column_1" " id="github">
             <!-- Left column -->
-            <h1>GitHub</h1>
-            <p>
+            <h1 class="header-text">GitHub</h1>
+            <p class="column-text">
                 You can view my coding projects on my GitHub profile here:<br>
                 <center><a href="https://github.com/KingCowfish" target="_blank">Alexander Broder's GitHub</a></center>
             </p>
