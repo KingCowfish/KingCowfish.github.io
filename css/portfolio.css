@@ -26,11 +26,12 @@ h1 {
 
 p {
     font-family: Perpetua, Rockwell Extra Bold;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 1px;
     font-size: 17px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 center {
@@ -49,6 +50,7 @@ a {
 q {
     font-style: italic;
     font-weight: bold;
+    font-size: 24px;
 }
 
 img {
@@ -180,20 +182,29 @@ footer {
 
 /* Navbar hover effect */
 .Navbar a:hover {
-    background-color: #f8f8ff;
-    color: 	#008b8b;
     font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.67);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.67);
+    box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.67);
 }
 
 /* Navbar Home button */
 .Navbar a.active {
-    color: #ff8c00;
+    color: #FFB038;
     background-color: #000000;
 }
 
-.Navbar a.active:hover {
-    background-color: #f8f8ff;
-}
+    .Navbar a.active:hover {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 176, 56, 0.67);
+        -moz-box-shadow: 0px 0px 30px 0px rgba(255, 176, 56, 0.67);
+        box-shadow: 0px 0px 30px 0px rgba(255, 176, 56, 0.67);
+    }
 
 @keyframes moveNav {
     from {left: -100vw;}
@@ -229,7 +240,6 @@ footer {
     float: left;
     width: 50%;
     padding: 10px;
-    padding-top: 3%;
     height: 400px;
     background-color: #008b8b;
     background-image: linear-gradient(#00cccc, #008080);
@@ -256,6 +266,14 @@ footer {
     max-width: 1000px;
     margin: auto;
   }
+
+.header-text {
+    margin-bottom: 10px;
+}
+
+.column-text {
+    text-align: left;
+}
   
   /* Next & previous buttons, leaving here in case I ever want to put it back
   .prev, .next {
@@ -309,16 +327,16 @@ footer {
     cursor: pointer;
     height: 15px;
     width: 15px;
-    background-color: #008b8b;
+    background-color: #FFB038;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
     margin: 15px 5px 5px 0px;
 }
-  
-  .active {
-    background-color: cyan;
-  }
+
+.active {
+    background-color: #D46802;
+}
   
   /* Fading animation */
   .fade {
@@ -344,7 +362,7 @@ footer {
   }
 
 /* Dealing with the contact form */
-.open-button {
+/*.open-button {
     background-color: #ff8c00;
     font-weight: bold;
     color: white;
@@ -397,4 +415,4 @@ footer {
   
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
-  }
+  }*/
